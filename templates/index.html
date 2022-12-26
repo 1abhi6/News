@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>NextPage - Blog, Magazine Html Template</title>
-    
+    <title>Abhi News</title>
+
     <!-- favicon -->
-    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+    <link rel=icon href="/static/assets/img/favicon.png" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="/static/assets/css/vendor.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="/static/assets/css/responsive.css">
+
+    {% comment %} Bootstrap {% endcomment %}
+    {% comment %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    {% endcomment %}
 
 </head>
+
 <body>
 
     <!-- preloader area start -->
@@ -58,7 +66,8 @@
                     </div>
                     <div class="col-lg-6 col-md-5 mt-2 mt-md-0 text-md-right text-center">
                         <div class="topbar-social">
-                            <div class="topbar-date d-none d-lg-inline-block"><i class="fa fa-calendar"></i> Saturday, October 7</div>
+                            <div class="topbar-date d-none d-lg-inline-block"><i class="fa fa-calendar"></i> Saturday,
+                                October 7</div>
                             <ul class="social-area social-area-2">
                                 <li><a class="facebook-icon" href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="twitter-icon" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -79,12 +88,12 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-5 align-self-center">
                         <div class="logo text-md-left text-center">
-                            <a class="main-logo" href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                            <a class="main-logo" href="index.html"><img src="/static/assets/img/logo.png" alt="img"></a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-7 text-md-right text-center">
                         <a href="#" class="adbar-right">
-                            <img src="assets/img/add/1.png" alt="img">
+                            <img src="/static/assets/img/add/1.png" alt="img">
                         </a>
                     </div>
                 </div>
@@ -97,10 +106,10 @@
             <div class="container nav-container">
                 <div class="responsive-mobile-menu">
                     <div class="logo d-lg-none d-block">
-                        <a class="main-logo" href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                        <a class="main-logo" href="index.html"><img src="/static/assets/img/logo.png" alt="img"></a>
                     </div>
-                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-left"></span>
                         <span class="icon-right"></span>
                     </button>
@@ -112,16 +121,16 @@
                     <ul class="navbar-nav menu-open">
                         <li class="current-menu-item">
                             <a href="#banner">Home</a>
-                        </li>                        
+                        </li>
                         <li class="current-menu-item">
                             <a href="#trending">Trending News</a>
-                        </li>                        
+                        </li>
                         <li class="current-menu-item">
                             <a href="#latest">Latest News</a>
-                        </li>                        
+                        </li>
                         <li class="current-menu-item">
                             <a href="#grid">News Grid</a>
-                        </li>                        
+                        </li>
                         <li class="current-menu-item">
                             <a target="_blank" href="https://1.envato.market/5OQX2">Pro Version</a>
                         </li>
@@ -146,7 +155,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="thumb after-left-top">
-                            <img src="assets/img/banner/1.png" alt="img">
+                            <img src="/static/assets/img/banner/1.png" alt="img">
                         </div>
                     </div>
                     <div class="col-lg-6 align-self-center">
@@ -158,7 +167,8 @@
                                 </ul>
                             </div>
                             <h2>ReZoom outage left some people locked out.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. </p>
                             <a class="btn btn-blue" href="#">Read More</a>
                         </div>
                     </div>
@@ -172,11 +182,12 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-white">
                         <div class="thumb">
-                            <img src="assets/img/post/1.png" alt="img">
+                            <img src="/static/assets/img/post/1.png" alt="img">
                             <a class="tag-base tag-blue" href="#">Tech</a>
                         </div>
                         <div class="details">
-                            <h6 class="title"><a href="#">The FAA will test drone detecting technologies in airports this year</a></h6>
+                            <h6 class="title"><a href="#">The FAA will test drone detecting technologies in airports
+                                    this year</a></h6>
                             <div class="post-meta-single mt-3">
                                 <ul>
                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
@@ -188,11 +199,12 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-white">
                         <div class="thumb">
-                            <img src="assets/img/post/2.png" alt="img">
+                            <img src="/static/assets/img/post/2.png" alt="img">
                             <a class="tag-base tag-orange" href="#">Food</a>
                         </div>
                         <div class="details">
-                            <h6 class="title"><a href="#">Rocket Lab will resume launches no sooner than August 27th</a></h6>
+                            <h6 class="title"><a href="#">Rocket Lab will resume launches no sooner than August 27th</a>
+                            </h6>
                             <div class="post-meta-single mt-3">
                                 <ul>
                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
@@ -204,11 +216,12 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-white">
                         <div class="thumb">
-                            <img src="assets/img/post/3.png" alt="img">
+                            <img src="/static/assets/img/post/3.png" alt="img">
                             <a class="tag-base tag-blue" href="#">Tech</a>
                         </div>
                         <div class="details">
-                            <h6 class="title"><a href="#">Google Drive flaw may attackers fool you into install malware</a></h6>
+                            <h6 class="title"><a href="#">Google Drive flaw may attackers fool you into install
+                                    malware</a></h6>
                             <div class="post-meta-single mt-3">
                                 <ul>
                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
@@ -220,7 +233,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-white">
                         <div class="thumb">
-                            <img src="assets/img/post/4.png" alt="img">
+                            <img src="/static/assets/img/post/4.png" alt="img">
                             <a class="tag-base tag-orange" href="#">Food</a>
                         </div>
                         <div class="details">
@@ -234,7 +247,7 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </div>
     <!-- banner area end -->
 
@@ -250,7 +263,7 @@
                             <div class="trending-post">
                                 <div class="single-post-wrap style-overlay">
                                     <div class="thumb">
-                                        <img src="assets/img/post/5.png" alt="img">
+                                        <img src="/static/assets/img/post/5.png" alt="img">
                                     </div>
                                     <div class="details">
                                         <div class="post-meta-single">
@@ -261,7 +274,7 @@
                                 </div>
                                 <div class="single-post-wrap style-overlay">
                                     <div class="thumb">
-                                        <img src="assets/img/post/6.png" alt="img">
+                                        <img src="/static/assets/img/post/6.png" alt="img">
                                     </div>
                                     <div class="details">
                                         <div class="post-meta-single">
@@ -272,7 +285,7 @@
                                 </div>
                                 <div class="single-post-wrap style-overlay">
                                     <div class="thumb">
-                                        <img src="assets/img/post/7.png" alt="img">
+                                        <img src="/static/assets/img/post/7.png" alt="img">
                                     </div>
                                     <div class="details">
                                         <div class="post-meta-single">
@@ -287,7 +300,7 @@
                             <div class="trending-post">
                                 <div class="single-post-wrap style-overlay">
                                     <div class="thumb">
-                                        <img src="assets/img/post/5.png" alt="img">
+                                        <img src="/static/assets/img/post/5.png" alt="img">
                                     </div>
                                     <div class="details">
                                         <div class="post-meta-single">
@@ -298,7 +311,7 @@
                                 </div>
                                 <div class="single-post-wrap style-overlay">
                                     <div class="thumb">
-                                        <img src="assets/img/post/6.png" alt="img">
+                                        <img src="/static/assets/img/post/6.png" alt="img">
                                     </div>
                                     <div class="details">
                                         <div class="post-meta-single">
@@ -309,7 +322,7 @@
                                 </div>
                                 <div class="single-post-wrap style-overlay">
                                     <div class="thumb">
-                                        <img src="assets/img/post/7.png" alt="img">
+                                        <img src="/static/assets/img/post/7.png" alt="img">
                                     </div>
                                     <div class="details">
                                         <div class="post-meta-single">
@@ -331,7 +344,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/1.png" alt="img">
+                                        <img src="/static/assets/img/post/list/1.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -340,7 +353,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow tourists </a></h6>
+                                            <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow
+                                                    tourists </a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -348,7 +362,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/2.png" alt="img">
+                                        <img src="/static/assets/img/post/list/2.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -357,7 +371,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Online registration, booking for Vaishno Devi </a></h6>
+                                            <h6 class="title"><a href="#">Online registration, booking for Vaishno Devi
+                                                </a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -365,7 +380,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/3.png" alt="img">
+                                        <img src="/static/assets/img/post/list/3.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -374,7 +389,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Detecting technologies in airports this year</a></h6>
+                                            <h6 class="title"><a href="#">Detecting technologies in airports this
+                                                    year</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -382,7 +398,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/4.png" alt="img">
+                                        <img src="/static/assets/img/post/list/4.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -391,7 +407,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">The FAA will drone detect-ing in airports this year</a></h6>
+                                            <h6 class="title"><a href="#">The FAA will drone detect-ing in airports this
+                                                    year</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -399,7 +416,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/5.png" alt="img">
+                                        <img src="/static/assets/img/post/list/5.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -408,7 +425,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Thailand makes it mand-atory for tourists to stay</a></h6>
+                                            <h6 class="title"><a href="#">Thailand makes it mand-atory for tourists to
+                                                    stay</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -418,7 +436,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/1.png" alt="img">
+                                        <img src="/static/assets/img/post/list/1.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -427,7 +445,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow tourists </a></h6>
+                                            <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow
+                                                    tourists </a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -435,7 +454,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/2.png" alt="img">
+                                        <img src="/static/assets/img/post/list/2.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -444,7 +463,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Online registration, booking for Vaishno Devi </a></h6>
+                                            <h6 class="title"><a href="#">Online registration, booking for Vaishno Devi
+                                                </a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -452,7 +472,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/3.png" alt="img">
+                                        <img src="/static/assets/img/post/list/3.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -461,7 +481,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Detecting technologies in airports this year</a></h6>
+                                            <h6 class="title"><a href="#">Detecting technologies in airports this
+                                                    year</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -469,7 +490,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/4.png" alt="img">
+                                        <img src="/static/assets/img/post/list/4.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -478,7 +499,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">The FAA will drone detect-ing in airports this year</a></h6>
+                                            <h6 class="title"><a href="#">The FAA will drone detect-ing in airports this
+                                                    year</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -486,7 +508,7 @@
                             <div class="single-post-list-wrap">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="assets/img/post/list/5.png" alt="img">
+                                        <img src="/static/assets/img/post/list/5.png" alt="img">
                                     </div>
                                     <div class="media-body">
                                         <div class="details">
@@ -495,7 +517,8 @@
                                                     <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                                 </ul>
                                             </div>
-                                            <h6 class="title"><a href="#">Thailand makes it mand-atory for tourists to stay</a></h6>
+                                            <h6 class="title"><a href="#">Thailand makes it mand-atory for tourists to
+                                                    stay</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -511,7 +534,7 @@
                         <div class="item">
                             <div class="single-post-wrap">
                                 <div class="thumb">
-                                    <img src="assets/img/post/8.png" alt="img">
+                                    <img src="/static/assets/img/post/8.png" alt="img">
                                 </div>
                                 <div class="details">
                                     <div class="post-meta-single mb-4 pt-1">
@@ -520,15 +543,17 @@
                                             <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                         </ul>
                                     </div>
-                                    <h6 class="title"><a href="#">Uttarakhand’s Hemkund Sahib yatra to start from September 4</a></h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    <h6 class="title"><a href="#">Uttarakhand’s Hemkund Sahib yatra to start from
+                                            September 4</a></h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="single-post-wrap">
                                 <div class="thumb">
-                                    <img src="assets/img/post/8.png" alt="img">
+                                    <img src="/static/assets/img/post/8.png" alt="img">
                                 </div>
                                 <div class="details">
                                     <div class="post-meta-single mb-4 pt-1">
@@ -537,8 +562,10 @@
                                             <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                         </ul>
                                     </div>
-                                    <h6 class="title"><a href="#">Uttarakhand’s Hemkund Sahib yatra to start from September 4</a></h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    <h6 class="title"><a href="#">Uttarakhand’s Hemkund Sahib yatra to start from
+                                            September 4</a></h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. </p>
                                 </div>
                             </div>
                         </div>
@@ -550,15 +577,25 @@
                     </div>
                     <div class="social-area-list mb-4">
                         <ul>
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook social-icon"></i><span>12,300</span><span>Like</span> <i class="fa fa-plus"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter social-icon"></i><span>12,600</span><span>Followers</span> <i class="fa fa-plus"></i></a></li>
-                            <li><a class="youtube" href="#"><i class="fa fa-youtube-play social-icon"></i><span>1,300</span><span>Subscribers</span> <i class="fa fa-plus"></i></a></li>
-                            <li><a class="instagram" href="#"><i class="fa fa-instagram social-icon"></i><span>52,400</span><span>Followers</span> <i class="fa fa-plus"></i></a></li>
-                            <li><a class="google-plus" href="#"><i class="fa fa-google social-icon"></i><span>19,101</span><span>Subscribers</span> <i class="fa fa-plus"></i></a></li>
+                            <li><a class="facebook" href="#"><i
+                                        class="fa fa-facebook social-icon"></i><span>12,300</span><span>Like</span> <i
+                                        class="fa fa-plus"></i></a></li>
+                            <li><a class="twitter" href="#"><i
+                                        class="fa fa-twitter social-icon"></i><span>12,600</span><span>Followers</span>
+                                    <i class="fa fa-plus"></i></a></li>
+                            <li><a class="youtube" href="#"><i
+                                        class="fa fa-youtube-play social-icon"></i><span>1,300</span><span>Subscribers</span>
+                                    <i class="fa fa-plus"></i></a></li>
+                            <li><a class="instagram" href="#"><i
+                                        class="fa fa-instagram social-icon"></i><span>52,400</span><span>Followers</span>
+                                    <i class="fa fa-plus"></i></a></li>
+                            <li><a class="google-plus" href="#"><i
+                                        class="fa fa-google social-icon"></i><span>19,101</span><span>Subscribers</span>
+                                    <i class="fa fa-plus"></i></a></li>
                         </ul>
                     </div>
                     <div class="add-area">
-                        <a href="#"><img class="w-100" src="assets/img/add/6.png" alt="img"></a>
+                        <a href="#"><img class="w-100" src="/static/assets/img/add/6.png" alt="img"></a>
                     </div>
                 </div>
             </div>
@@ -571,13 +608,15 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay-bg">
                         <div class="thumb">
-                            <img src="assets/img/post/9.png" alt="img">
+                            <img src="/static/assets/img/post/9.png" alt="img">
                         </div>
                         <div class="details">
                             <div class="post-meta-single mb-3">
                                 <ul>
                                     <li><a class="tag-base tag-blue" href="cat-fashion.html">fashion</a></li>
-                                    <li><p><i class="fa fa-clock-o"></i>08.22.2020</p></li>
+                                    <li>
+                                        <p><i class="fa fa-clock-o"></i>08.22.2020</p>
+                                    </li>
                                 </ul>
                             </div>
                             <h6 class="title"><a href="#">A Comparison of the Sony FE 85mm f/1.4 GM and Sigma</a></h6>
@@ -587,7 +626,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap">
                         <div class="thumb">
-                            <img src="assets/img/post/10.png" alt="img">
+                            <img src="/static/assets/img/post/10.png" alt="img">
                             <p class="btn-date"><i class="fa fa-clock-o"></i>08.22.2020</p>
                         </div>
                         <div class="details">
@@ -596,7 +635,7 @@
                     </div>
                     <div class="single-post-wrap">
                         <div class="thumb">
-                            <img src="assets/img/post/11.png" alt="img">
+                            <img src="/static/assets/img/post/11.png" alt="img">
                             <p class="btn-date"><i class="fa fa-clock-o"></i>08.22.2020</p>
                         </div>
                         <div class="details">
@@ -607,7 +646,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap">
                         <div class="thumb">
-                            <img src="assets/img/post/12.png" alt="img">
+                            <img src="/static/assets/img/post/12.png" alt="img">
                             <p class="btn-date"><i class="fa fa-clock-o"></i>08.22.2020</p>
                         </div>
                         <div class="details">
@@ -616,7 +655,7 @@
                     </div>
                     <div class="single-post-wrap">
                         <div class="thumb">
-                            <img src="assets/img/post/13.png" alt="img">
+                            <img src="/static/assets/img/post/13.png" alt="img">
                             <p class="btn-date"><i class="fa fa-clock-o"></i>08.22.2020</p>
                         </div>
                         <div class="details">
@@ -634,7 +673,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/1.png" alt="img">
+                                            <img src="/static/assets/img/post/list/1.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -651,7 +690,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/2.png" alt="img">
+                                            <img src="/static/assets/img/post/list/2.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -668,7 +707,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/3.png" alt="img">
+                                            <img src="/static/assets/img/post/list/3.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -685,7 +724,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/4.png" alt="img">
+                                            <img src="/static/assets/img/post/list/4.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -702,7 +741,7 @@
                                 <div class="single-post-list-wrap mb-0">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/5.png" alt="img">
+                                            <img src="/static/assets/img/post/list/5.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -721,7 +760,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/1.png" alt="img">
+                                            <img src="/static/assets/img/post/list/1.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -738,7 +777,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/2.png" alt="img">
+                                            <img src="/static/assets/img/post/list/2.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -755,7 +794,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/3.png" alt="img">
+                                            <img src="/static/assets/img/post/list/3.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -772,7 +811,7 @@
                                 <div class="single-post-list-wrap">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/4.png" alt="img">
+                                            <img src="/static/assets/img/post/list/4.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -789,7 +828,7 @@
                                 <div class="single-post-list-wrap mb-0">
                                     <div class="media">
                                         <div class="media-left">
-                                            <img src="assets/img/post/list/5.png" alt="img">
+                                            <img src="/static/assets/img/post/list/5.png" alt="img">
                                         </div>
                                         <div class="media-body">
                                             <div class="details">
@@ -817,7 +856,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/15.png" alt="img">
+                            <img src="/static/assets/img/post/15.png" alt="img">
                             <a class="tag-base tag-purple" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -831,7 +870,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/16.png" alt="img">
+                            <img src="/static/assets/img/post/16.png" alt="img">
                             <a class="tag-base tag-green" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -845,7 +884,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/17.png" alt="img">
+                            <img src="/static/assets/img/post/17.png" alt="img">
                             <a class="tag-base tag-red" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -859,7 +898,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/18.png" alt="img">
+                            <img src="/static/assets/img/post/18.png" alt="img">
                             <a class="tag-base tag-purple" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -873,7 +912,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/19.png" alt="img">
+                            <img src="/static/assets/img/post/19.png" alt="img">
                             <a class="tag-base tag-red" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -887,7 +926,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/20.png" alt="img">
+                            <img src="/static/assets/img/post/20.png" alt="img">
                             <a class="tag-base tag-blue" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -901,7 +940,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/21.png" alt="img">
+                            <img src="/static/assets/img/post/21.png" alt="img">
                             <a class="tag-base tag-light-green" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -915,7 +954,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-post-wrap style-overlay">
                         <div class="thumb">
-                            <img src="assets/img/post/22.png" alt="img">
+                            <img src="/static/assets/img/post/22.png" alt="img">
                             <a class="tag-base tag-blue" href="#">Tech</a>
                         </div>
                         <div class="details">
@@ -927,7 +966,7 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </div>
 
     <div class="footer-area bg-black pd-top-95">
@@ -937,7 +976,9 @@
                     <div class="widget">
                         <h5 class="widget-title">ABOUT US</h5>
                         <div class="widget_about">
-                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Quis ipsum ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                                facilisis.</p>
                             <ul class="social-area social-area-2 mt-4">
                                 <li><a class="facebook-icon" href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="twitter-icon" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -982,7 +1023,7 @@
                         <div class="single-post-list-wrap style-white">
                             <div class="media">
                                 <div class="media-left">
-                                    <img src="assets/img/post/list/1.png" alt="img">
+                                    <img src="/static/assets/img/post/list/1.png" alt="img">
                                 </div>
                                 <div class="media-body">
                                     <div class="details">
@@ -991,7 +1032,8 @@
                                                 <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                             </ul>
                                         </div>
-                                        <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow tourists </a></h6>
+                                        <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow tourists
+                                            </a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -999,7 +1041,7 @@
                         <div class="single-post-list-wrap style-white">
                             <div class="media">
                                 <div class="media-left">
-                                    <img src="assets/img/post/list/2.png" alt="img">
+                                    <img src="/static/assets/img/post/list/2.png" alt="img">
                                 </div>
                                 <div class="media-body">
                                     <div class="details">
@@ -1008,7 +1050,8 @@
                                                 <li><i class="fa fa-clock-o"></i>08.22.2020</li>
                                             </ul>
                                         </div>
-                                        <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow tourists </a></h6>
+                                        <h6 class="title"><a href="#">Himachal Pradesh rules in order to allow tourists
+                                            </a></h6>
                                     </div>
                                 </div>
                             </div>
@@ -1035,8 +1078,11 @@
     <!-- back to top area end -->
 
     <!-- all plugins here -->
-    <script src="assets/js/vendor.js"></script>
+    <script src="/static/assets/js/vendor.js"></script>
     <!-- main js  -->
-    <script src="assets/js/main.js"></script>
+    <script src="/static/assets/js/main.js"></script>
+    {% comment %} <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    {% endcomment %}
 </body>
+
 </html>
